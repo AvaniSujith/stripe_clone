@@ -24,7 +24,7 @@ body{
     justify-content: space-between;
     align-items: center;
     min-height: 68px;
-    padding: 32px 16px 12px;
+    padding: 32px 0px 12px;
 }
 
 .header-content-block{
