@@ -19,7 +19,7 @@ body{
     margin: 0 16px;
 }
 
-#mobile-screen{
+#first-screen{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +29,10 @@ body{
 
 .header-content-block{
     padding: 0 16px 0 16px;
+}
+
+.header-title{
+    padding-bottom: 72px;
 }
 
 .sidebar{
@@ -68,4 +72,26 @@ body{
     font-size: calc(50*1px + (78 - 50)*(calc(100vw - 0px) - 375*1px)/(600 - 375));
     letter-spacing: -0.04em;
     margin-top: 32px;
+}
+
+.title-header{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+} 
+
+.user-logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 60px;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
+}
+
+.user-logos img{
+    width: 100%;
+    height: 100%;
 }
