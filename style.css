@@ -10,7 +10,15 @@ button{
 }
 
 body{
-    background-color: rgb(173, 160, 160);
+    background-color: rgb(235, 230, 230);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .overall-section{
@@ -94,4 +102,109 @@ body{
 .user-logos img{
     width: 100%;
     height: 100%;
+}
+
+
+.userLogos-block{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.modal-box{
+    position: absolute;
+    box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #f6f9fb;
+    padding: 4px;
+    display: flex;
+}
+
+.nav-btn-list{
+    display: flex;
+}
+
+.navbar-list-item button{
+    background: transparent;
+    color: #ffffff;
+    border: none;
+}
+
+.right-arrow{
+    translate: -6px;
+}
+
+.navbar-list-item > span{
+    display: inline-flex;
+}
+
+#navProductModal{
+   display: flex;
+   gap: 4px;
+   flex-direction: column;
+
+}
+
+.payment-global, .money-management, .revenue-finance{
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+.subgroup-item{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sub-list-item-img{
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 16px;
+    background-color: #f6f9fb;
+}
+
+.sub-list-item-img img{
+    width: 16px;
+    height: 16px;
+}
+
+.subgroups{
+    margin-top: 8px;
+    max-width: 620px;
+    display: grid;
+    grid: auto / repeat(2, 258px);
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.payments-subgroups{
+    padding-left: 42px;
+    margin: 0;
+    display: grid;
+    grid: auto / auto;
+    row-gap: 2px;
+    padding-inline-start: 42px;
+}
+
+.product-sub-nav-item{
+    outline: none;
+    padding: 8px;
+
+}
+
+.productSubNav{
+    display: inline-flex;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #f6f9fc;
+    font-size: 12px;
+}
+
+.modalbox-aside-items{
+    padding: 24px 10px 28px 24px;
+    
 }
