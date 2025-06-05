@@ -12,7 +12,7 @@
             
                 <nav id="first-screen">
                 
-                    <!-- <div class="sideHeader">
+                    <div class="sideHeader">
                         <a href="#" class="side-header" id="sideLogo">
                             <img src="assets/svg/Stripe logo.svg" alt="strip-logo">
                         </a>
@@ -21,86 +21,11 @@
                         <a href="#" class="sidebar-logo" id="sidebarLogo">
                             <img src="assets/svg/Open mobile navigation.svg" alt="sidebar">
                         </a>
-                    </div> -->
-
-                    <div class="sideHeader">
-                        <a href="#" class="side-header" id="sideLogo">
-                            <img src="assets/svg/Stripe logo.svg" alt="strip-logo">
-                        </a>
-                    </div>
-                    <div class="navbar-btns">
-
-                        <ul class="nav-btn-list">
-                            <li class="navbar-list-item">
-                                <button id="productBtn">
-                                    <span class="btn-text">Products</span>
-                                    <span class="toggler-btn">      
-                                        <img src="assets/svg/leftOFArrow.svg" alt="leftArrow">    
-                                        <img src="assets/svg/rightOfArrow.svg" alt="rightArrow" class="right-arrow">                         
-                                    </span>
-                                </button>
-                            </li>
-                            <li class="navbar-list-item">
-                                <button id="solutions">
-                                    <span class="btn-text">Solutions</span>
-                                    <span class="toggler-btn">
-                                        <img src="assets/svg/leftOFArrow.svg" alt="leftArrow">    
-                                        <img src="assets/svg/rightOfArrow.svg" alt="rightArrow" class="right-arrow">
-                                    </span>
-                                </button>
-                            </li>
-                            <li class="navbar-list-item">
-                                <button id="developer">
-                                    <span class="btn-text">Developers</span>
-                                    <span class="toggler-btn">
-                                        <img src="assets/svg/leftOFArrow.svg" alt="leftArrow">    
-                                        <img src="assets/svg/rightOfArrow.svg" alt="rightArrow" class="right-arrow">
-                                    </span>
-                                </button>
-                            </li>
-                            <li class="navbar-list-item">
-                                <button id="resources">
-                                    <span class="btn-text">Resources</span>
-                                    <span class="toggler-btn">
-                                        <img src="assets/svg/leftOFArrow.svg" alt="leftArrow">    
-                                        <img src="assets/svg/rightOfArrow.svg" alt="rightArrow" class="right-arrow">
-                                    </span>
-                                </button>
-                            </li>
-
-                            <li class="navbar-list-item">
-                                <button id="pricing">
-                                    <span class="btn-text">Pricing</span>
-                                </button>
-                            </li>
-
-                        </ul>
-
-                        <div class="modal-box" id="navLinkDetails">
-
-
-
-
-                       
-                        </div>
-
-                    </div>
-                    <div class="navbar-endBtns">
-                        <nav class="end-item-list">
-                            <li class="navbar-list-item">
-                                <button id="signIn">
-                                    <span class="btn-text"> Sign In </span>
-                                </button>
-                            </li>
-                            <li class="navbar-list-item">
-
-                            </li>
-                        </nav>
                     </div>
 
                 </nav>
                 <div class="prev-btn">
-                    <button class="prev" id="prevBtn">Previous</button>
+                    <button class="prev" id="prevBtn">Preview</button>
                 </div>
 
 
@@ -109,10 +34,25 @@
                     <h1 class="title">
                         Financial infrastructure to grow your revenue
                     </h1>
+
+                    <div class="animated-background">
+                        <canvas id="gradient-canvas"></canvas>
+                    </div>
+
                     <div class="header-details">
                         Join the millions of companies that use Stripe to accept payments online and in person, embed financial services, power custom, revenue models, and build a more profitable business.
                     </div>
-                    <div class="request-btn" id="requestBtn"></div>
+                    <a class="stripe-btn" id="requestBtn">
+                        Request an invite
+                        <svg class="HoverArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+                            <g fill-rule="evenodd">
+                                
+                                <path class="HoverArrow__linePath" d="M0 5h7"></path>
+                                <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4"></path>
+                                
+                            </g>
+                        </svg>
+                    </a>
                 </div>
 
                 <div class="graph-block" id="graphBlock">
@@ -137,5 +77,10 @@
 
 
     </main>
+
+    <!-- <script src="js/stripe-gradient.js"></script> -->
+     <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script> -->
+
+    <script src="script.js"></script>
 </body>
 </html>
