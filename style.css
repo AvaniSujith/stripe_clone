@@ -659,10 +659,12 @@ a{
     grid: auto / repeat(2, 1fr);
 }
 
-/* .card-number-input{
+.card-number-input{
     display: grid;
     
-} */
+    
+}
+
 /*************************************         *************************************                  *************************************/
 
 .sticky-animation-wrapper{
