@@ -710,7 +710,7 @@ a{
 .sticky-animation-wrapper{
     height: 300vh;
     position: relative;
-
+    width: 100%;
 }
 
 .sticky-animation-grid{
